@@ -1,0 +1,13 @@
+{
+  "name": "semflex",
+  "repo": "jasonkuhrt/semflex",
+  "description": "Cross-browser layout system based on css-tables with characteristics akin to the flex spec",
+  "version": "0.0.1",
+  "keywords": ["layout", "display", "flex", "UI", "CSS", "app"],
+  "dependencies": {},
+  "development": {},
+  "license": "BSD-2-clause",
+  "styles": [
+    "index.css"
+  ]
+}

@@ -1,0 +1,48 @@
+
+/*
+ * @Exports
+ *  .semflex
+ *  .semflex--inline
+ *  .semflex--dev
+ *  .semflex__auto
+*/
+
+.semflex { display: table; }
+.semflex > * {
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+
+
+/*
+ * MODIFIERS
+*/
+
+/* Allow other inline content to share space on the same horizontal line */
+
+.semflex--inline { display: inline-table; }
+
+
+/* Visualize how cells are being sized and spaced */
+
+.semflex--dev > * {
+  border-bottom: 1px dotted black;
+  border-top: 1px dotted black;
+  border-left: 1px dotted black;
+}
+.semflex--dev > *:last-child {
+  border-right: 1px dotted black;
+}
+
+
+
+
+/*
+ * PARTS
+*/
+
+/* Autosize a cell to its content */
+
+.semflex__auto { width: 1px; }
